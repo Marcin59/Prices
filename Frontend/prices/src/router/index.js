@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Map from '@/components/HelloWorld.vue';
+import Map from '@/views/Map.vue';
 
 Vue.use(Router);
 
 const routes = [
   {
-    path: '/Map',
+    path: '',
     name: 'Map',
     component: Map,
   },
